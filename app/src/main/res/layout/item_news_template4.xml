@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/four"
+    android:layout_marginRight="@dimen/four">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/four"
+        android:paddingLeft="@dimen/eight"
+        android:paddingRight="@dimen/eight"
+        android:paddingTop="@dimen/four">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/TextViewDarkWrapContent_16"
+            android:layout_marginBottom="@dimen/eight"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="文章的标题文章的标题文章的标题文章的标题文章的标题"/>
+
+
+        <LinearLayout
+            android:id="@+id/llayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginBottom="@dimen/eight"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_thumb"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="@dimen/eight"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shape_placeholder"/>
+
+            <ImageView
+                android:id="@+id/iv_thumb2"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="@dimen/eight"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shape_placeholder"/>
+
+            <ImageView
+                android:id="@+id/iv_thumb3"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shape_placeholder"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_sourceName"
+            style="@style/TextViewGrayWrapContent_10"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/llayout"
+            tools:text="来源：游戏头条"/>
+
+        <TextView
+            android:id="@+id/tv_pubtime"
+            style="@style/TextViewGrayWrapContent_10"
+            android:layout_alignBottom="@id/tv_sourceName"
+            android:layout_marginRight="12dp"
+            android:layout_toLeftOf="@id/tv_sourceName"
+            tools:text="2小时前"/>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+

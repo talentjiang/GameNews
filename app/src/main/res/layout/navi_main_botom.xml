@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+    android:id="@id/fabtoolbar_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/forty_eight"
+    android:layout_alignParentBottom="true"
+    android:background="@color/black_161212"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RadioButton
+        android:id="@+id/rdb_news"
+        style="@style/FootNavigationBar"
+        android:checked="true"
+        android:drawableTop="@drawable/selector_article"
+        android:textSize="0sp" />
+
+    <RadioButton
+        android:id="@+id/rdb_video"
+        style="@style/FootNavigationBar"
+        android:drawableBottom="@drawable/selector_video"
+        android:textSize="0sp" />
+
+    <RadioButton
+        android:id="@+id/rdb_pic"
+        style="@style/FootNavigationBar"
+        android:drawableTop="@drawable/selector_game"
+        android:textSize="0sp" />
+
+    <RadioButton
+        android:id="@+id/rdb_me"
+        style="@style/FootNavigationBar"
+        android:drawableTop="@drawable/selector_forum"
+        android:textSize="0sp" />
+
+</RadioGroup>

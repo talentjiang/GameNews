@@ -1,0 +1,54 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_bg"
+    tools:context=".module.main.NewsFragment">
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="48dp"-->
+        <!--/>-->
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:background="@color/black_161212"
+        android:layout_height="@dimen/forty_eight">
+
+        <com.ogaclejapan.smarttablayout.SmartTabLayout
+            android:id="@+id/viewpagertab"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="8dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:stl_clickable="true"
+            app:stl_defaultTabTextColor="@android:color/white"
+            app:stl_defaultTabTextHorizontalPadding="12dp"
+            app:stl_defaultTabTextMinWidth="0dp"
+            app:stl_defaultTabTextSize="16sp"
+            app:stl_distributeEvenly="false"
+            app:stl_dividerThickness="0dp"
+            app:stl_drawDecorationAfterTab="false"
+            app:stl_indicatorColor="@color/red_ff141b"
+            app:stl_indicatorCornerRadius="3dp"
+            app:stl_indicatorGravity="center"
+            app:stl_indicatorInterpolation="smart"
+            app:stl_indicatorThickness="30dp"
+            app:stl_indicatorWidth="auto"
+            app:stl_titleOffset="24dp"
+            app:stl_underlineThickness="0dp"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_infolist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/viewpagertab"
+        android:layout_marginTop="48dp"/>
+
+
+</android.support.design.widget.CoordinatorLayout>

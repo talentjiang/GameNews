@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">游戏头条</string>
+    <string name="recommend">推荐</string>
+    <string name="hot">热门</string>
+    <string name="newgame">新游</string>
+    <string name="pingce">评测</string>
+    <string name="erciyuan">二次元</string>
+    <string name="product">产业</string>
+    <string name="game">游戏</string>
+
+    <string name="loading">正在加载...</string>
+
+    <string name="listview_header_hint_normal">下拉刷新</string>
+    <string name="listview_header_hint_release">释放立即刷新</string>
+    <string name="listview_loading">正在加载...</string>
+    <string name="nomore_loading">没有了</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_done">刷新完成</string>
+    <string name="listview_header_last_time">上次更新时间：</string>
+</resources>

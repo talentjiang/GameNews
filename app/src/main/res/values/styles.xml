@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TranslucentActivityTheme" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!--顶部导航的按钮样式-->
+    <style name="HeadTitleBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/selecter_headtitle_bg</item>
+    </style>
+
+    <!--底部导航按钮样式-->
+    <style name="FootNavigationBar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="FabSheetItemStyle">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textColor">@color/white_bg</item>
+    </style>
+
+    <style name="WrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--TextView黑色字体-->
+    <style name="TextViewDarkWrapContent_9" parent="WrapContent">
+        <item name="android:textColor">@color/black_161212</item>
+        <item name="android:textSize">@dimen/nine</item>
+    </style>
+
+    <style name="TextViewDarkWrapContent_10" parent="TextViewDarkWrapContent_9">
+        <item name="android:textSize">@dimen/ten</item>
+    </style>
+
+    <style name="TextViewDarkWrapContent_11" parent="TextViewDarkWrapContent_9">
+        <item name="android:textSize">@dimen/eleven</item>
+    </style>
+
+    <style name="TextViewDarkWrapContent_12" parent="TextViewDarkWrapContent_9">
+        <item name="android:textSize">@dimen/twelve</item>
+    </style>
+
+    <style name="TextViewDarkWrapContent_13" parent="TextViewDarkWrapContent_9">
+        <item name="android:textSize">@dimen/thirteen</item>
+    </style>
+
+    <style name="TextViewDarkWrapContent_14" parent="TextViewDarkWrapContent_9">
+        <item name="android:textSize">@dimen/fourteen</item>
+    </style>
+
+    <style name="TextViewDarkWrapContent_16" parent="TextViewDarkWrapContent_9">
+        <item name="android:textSize">@dimen/sixteen</item>
+    </style>
+
+
+    <style name="TextViewGrayWrapContent_9" parent="WrapContent">
+        <item name="android:textColor">@color/gray_b2b2b2</item>
+        <item name="android:textSize">@dimen/nine</item>
+    </style>
+
+    <style name="TextViewGrayWrapContent_10" parent="TextViewGrayWrapContent_9">
+        <item name="android:textSize">@dimen/ten</item>
+    </style>
+
+</resources>

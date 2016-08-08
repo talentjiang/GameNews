@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_bg"
+    tools:context=".module.main.MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/llayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:addStatesFromChildren="true"
+        android:background="@color/white_bg"
+        android:orientation="vertical">
+
+    </RelativeLayout>
+
+    <com.github.fafaldo.fabtoolbar.widget.FABToolbarLayout
+        android:id="@+id/fabtoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:containerId="@+id/fabtoolbar_container"
+        app:fabDrawableAnimationEnabled="true"
+        app:fabId="@+id/fabtoolbar_fab"
+        app:fabToolbarId="@+id/fabtoolbar_toolbar"
+        app:fadeInFraction="0"
+        app:hideDuration="200"
+        app:horizontalMargin="16dp"
+        app:showDuration="600"
+        app:layout_behavior="com.marno.gameclient.widgets.MFabBehavior"
+        app:verticalMargin="32dp">
+
+
+        <RelativeLayout
+            android:id="@id/fabtoolbar_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@id/fabtoolbar_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_more"
+
+                app:backgroundTint="@color/black_161212"
+                app:borderWidth="0dp"
+                app:fabSize="normal" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/navi_main_botom"/>
+
+    </com.github.fafaldo.fabtoolbar.widget.FABToolbarLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

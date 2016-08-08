@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#161212</color>
+    <color name="colorPrimaryDark">#161212</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="red_ff141b">#ff141b</color>
+    <color name="white_bg">#ffffff</color>
+    <color name="black_161212">#161212</color>
+    <color name="group_bg">#184878</color>
+    <color name="gray_dfdfdf">#dfdfdf</color>
+    <color name="gray_b2b2b2">#b2b2b2</color>
+    <color name="placeholder">#737373</color>
+    <color name="count_bg">#ae707070</color>
+    <color name="count_bg_guideactivity">#ae707070</color>
+    <color name="game_title_bg">#aa000000</color>
+
+</resources>

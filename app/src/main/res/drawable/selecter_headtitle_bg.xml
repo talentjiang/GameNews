@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--选中状态下改变顶部导航栏目的状态-->
+    <item android:drawable="@drawable/shape_headtitlebar_selecteditem_bg"
+        android:state_checked="true"/>
+
+</selector>
