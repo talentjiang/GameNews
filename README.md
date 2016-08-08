@@ -1,13 +1,16 @@
 #GameNews
 ---------
 一款游戏资讯APP，包括四大主要板块【新闻】【视频】【美图】【个人中心(未完成)】，
-使用了目前比较流行的一些技术框架，Retrofit + RxJava + Realm + ButterKnife8.0等；应用会持续更新，
+使用了目前比较流行的一些技术框架，Retrofit + RxJava + Realm + ButterKnife8.0等；
 集成个人比较喜欢的一些技术框架和功能。欢迎交流和指正
 
 ###一、截图
-
+动图有些压缩，效果不好，动画效果都没了
+[动图](https://github.com/MarnonDev/GameNews/blob/master/screenshot/gamenews.gif)
+[截图1](https://github.com/MarnonDev/GameNews/blob/master/screenshot/%E6%88%AA%E5%9B%BE1(1).png)
+[截图2](https://github.com/MarnonDev/GameNews/blob/master/screenshot/%E6%88%AA%E5%9B%BE2(1).png)
 ###二、APK下载
-
+[APK下载](https://github.com/MarnonDev/GameNews/blob/master/screenshot/%E6%88%AA%E5%9B%BE3.png)
 
 ###三、主要技术框架
 1. 网络请求：Retrofit + RxJava
