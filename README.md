@@ -30,7 +30,7 @@
 
 ###四、关于我
 1. 邮箱：marnodev@163.com
-2. 简书：[http://www.jianshu.com/users/174a09ba6c25/)](http://www.jianshu.com/users/174a09ba6c25/)
+2. 简书：[http://www.jianshu.com/users/174a09ba6c25/](http://www.jianshu.com/users/174a09ba6c25/)
 
 ###五、声明
 接口是抓取网络数据，仅用于非商业用途，如做为商业使用，请自行联系接口提供方。本人概不负责。
